@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Shvetsarcha shaxmat",
+    "slug": "ChessTour",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#c0392b"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.islomovdiyorbek.shvetsarchashaxmat"
+    },
+    "android": {
+      "package": "com.islomovdiyorbek.shvetsarchashaxmat",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#c0392b"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a8b6e580-3505-454a-8257-9b3df3f04def"
+      }
+    },
+    "owner": "diyorbek2002"
+  }
+}
